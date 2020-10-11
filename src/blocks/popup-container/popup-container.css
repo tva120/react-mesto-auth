@@ -1,0 +1,30 @@
+
+@import url(./__text/popup-container__text.css);
+@import url(./__info/popup-container__info.css);
+@import url(./__info/_gray-color/popup-container__info_gray-color.css);
+@import url(./__infoform/popup-container__infoform.css);
+@import url(./__infoform/_type/popup-container__infoform_type_error.css);
+
+@import url(./__button-save/popup-container__button-save.css);
+@import url(./__button-close/popup-container__button-close.css);
+
+
+
+.popup-container {
+  width: 430px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+@media screen and (max-width: 1023px)  {
+  .popup-container {
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 767px)  {
+  .popup-container {
+    width: 240px;
+  }
+}

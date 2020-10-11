@@ -1,0 +1,26 @@
+.profile__author-name {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 56px;
+  text-overflow: ellipsis;
+  max-width: 470px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1023px) {
+  .profile__author-name {
+    font-size: 27px;
+    line-height: 56px;
+    text-align: center;
+
+  }
+}
+@media screen and (max-width: 767px)  {
+  .profile__author-name {
+    max-width: 270px;
+  }
+}

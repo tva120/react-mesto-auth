@@ -1,0 +1,7 @@
+@import url(./__picture/popup-preview__picture.css);
+@import url(./__caption/popup-preview__caption.css);
+@import url(./__button-close/popup-preview__button-close.css);
+.popup-preview {
+  position: relative;
+  margin: 0;
+}

@@ -1,0 +1,5 @@
+.element__likeblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+@import url(./_about/popup-container__infoform_about.css);
+@import url(./_author/popup-container__infoform_author.css);
+@import url(./_place-link/popup-container__infoform_place-link.css);
+@import url(./_place-name/popup-container__infoform_place-name.css);
+
+
+
+.popup-container__infoform {
+  width: 100%;
+  min-height: 27px;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+
+  margin-top: 29px;
+}
