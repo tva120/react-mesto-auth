@@ -1,10 +1,14 @@
 @import url(./__logo/header__logo.css);
+@import url(./__nav/header__nav.css);
+@import url(./__nav-link/header__nav-link.css);
 
 .header {
   max-width: 882px;
   margin: 0 auto 36px;
   border-bottom: 1px solid rgba(84, 84, 84, .7);
   padding-top: 41px;
+  display: flex;
+  justify-content: space-between;
 }
 @media screen and (max-width: 1023px)  {
   .header {
